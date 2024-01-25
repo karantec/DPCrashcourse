@@ -20,7 +20,7 @@ int main(){
   //create a dp array with all the values zeroes
    ll dp[n+1]={0};
    
-   ll k=0;//max value of
+   ll k=0;//max value to which it will be compared
 
    //base case
    dp[1]=max(a[1],k);
