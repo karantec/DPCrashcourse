@@ -1,0 +1,1 @@
+{"name":"Local: Frog3","url":"e:\\DSAProjects\\Dp\\Frog3.cpp","tests":[{"id":1706392884893,"input":"5 6\n1 2 3 4 5","output":"20"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\DSAProjects\\Dp\\Frog3.cpp","group":"local","local":true}
