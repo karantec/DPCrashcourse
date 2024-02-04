@@ -1,0 +1,24 @@
+int dp1[1001][1001]
+int dp2[1001][1001] 
+Int up_max[1001][1005]
+Left_max 
+    for(i=1;i<=n;i++){
+        for(j=1;j<=m;j++){
+            Left_max = -inf;
+            
+           V = b[i][j] + up_max[i-1][j] 
+
+           up_max[i][j] = max(up_max[i-1][j], dp[i][j] - b[i][j])  
+
+           Left_max => max of(dp[i][j-1]-b[i][j-1],...j-2…,j-3,....1) 
+            v = b[i][j] + left_max; 
+            Left_max = max(left_max,dp[i][j]-b[i][j])
+
+            
+        
+
+            dp1[i][j] = 0 
+            dp2[i][j] = v 
+        }
+    }
+answer ==> max of all(dp2[i][j])
